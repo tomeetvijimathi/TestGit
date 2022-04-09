@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suite" parallel="methods" thread-count="2">
+  <test name="Test Cases">
+  <!-- <groups>
+  <define name="All">
+  <include name="Moto"></include>
+  <include name="vivo"></include>
+  </define>
+  <run>
+  <include name="All"/>
+  
+  </run>
+  </groups>
+  <parameter name="Name" value="viji"></parameter>
+ -->  
+ 
+    <classes>
+    <class name="com.testngannotation.TestClass"/>
+    
+    
+    
+    
+      <!-- <class name="com.testngannotation.SimpleAnnotation"></class>
+      <class name="com.testngannotation.Dependencies"/>
+      <class name="com.testngannotation.ParallelExamble"/>
+      <class name="com.testngannotation.IgnoreTest"/>
+      <class name="com.testngannotation.GroupingExamble"/>
+      <class name="com.testngannotation.InvocationCount"/>
+      <class name="com.testngannotation.PriorityTest"/>
+      <class name="com.testngannotation.ParameterizationExamble"/>
+ -->      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
